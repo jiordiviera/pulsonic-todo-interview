@@ -4,6 +4,12 @@ Application de gestion de tâches développée avec Vue 3 dans le cadre de l'ent
 
 L'objectif est de proposer une implémentation simple, maintenable et testée, tout en mettant en pratique les principaux concepts de l'écosystème Vue 3.
 
+## Démo en ligne
+
+L'application est déployée et accessible à l'adresse suivante :
+
+https://pulsonic-todo-interview.jiordiviera.me
+
 ## Fonctionnalités
 
 - Créer une tâche
@@ -84,6 +90,19 @@ Construire la version de production :
 ```bash
 pnpm build
 ```
+
+## Intégration continue
+
+Une pipeline GitHub Actions exécute automatiquement les vérifications du projet à chaque push et pull request :
+
+```bash
+pnpm check
+pnpm typecheck
+pnpm test:run
+pnpm build
+```
+
+Elle permet de vérifier le formatage et l'analyse statique, les types TypeScript, les tests automatisés et la compilation de production avant intégration.
 
 ## Architecture
 
