@@ -29,7 +29,7 @@ L'objectif est de proposer une implémentation simple, maintenable et testée, t
 
 ## Prérequis
 
-- Node.js 20+
+- Node.js 24+
 - pnpm
 
 ## Installation
